@@ -1,0 +1,28 @@
+div{
+    margin: 20px;
+    padding: 15px;
+    border: 5px solid rgb(226, 43, 101);
+}
+div p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    text-align: left;
+    text-indent: 10px;
+
+}
+body>div>div>div{
+    background-color: aqua;
+}
+body>div>div{
+    background-color: antiquewhite;
+}
+body>div{
+    background-color: blueviolet;
+}
+p+div>div{
+    color: blue;
+}
+p+div{
+    color: brown;
+}
